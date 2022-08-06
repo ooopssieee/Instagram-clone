@@ -12,7 +12,7 @@ export const users =[
 {
     key:3,
     user:'superman',
-    uri:require('/home/hassan/Insta/instagram/assets/superman.png'),
+    uri:require('/home/hassan/Insta/instagram/assets/superman.jpg'),
 },
 {
     key:4,
@@ -28,7 +28,6 @@ export const users =[
     key:6,
     user:'wonderwoman',
     uri:require('/home/hassan/Insta/instagram/assets/wonderwoman.png'),
-}
-
+},
 /*{},{},{},{},{},{},{},{},{},{},{},*/
 ]

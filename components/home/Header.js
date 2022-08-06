@@ -25,24 +25,23 @@ const styles=StyleSheet.create({
       justifyContent:'space-between',
       alignItems:'center',
       flexDirection:'row',
-      marginHorizontal:20,
       paddingTop: Platform.OS==="android"?StatusBar.currentHeight:0,
   },  
   logo:{
     width:180,
     height:90,
     resizeMode:'contain',
-    marginLeft:-20,marginTop:-20,
+    marginLeft:-20,marginTop:-15,
   },
   iconContainer:{
     flexDirection:'row',
   },icon:{
-    width:75,height:100,resizeMode:'contain',marginRight:-25,marginTop:-20,
+    width:100,height:100,resizeMode:'contain',marginTop:-15,
   },
   unreadBadge:{
     backgroundColor:'red',
     position:'absolute',
-    left:45 ,
+    left:65 ,
     bottom:60,
     width:25,
     height:18,
